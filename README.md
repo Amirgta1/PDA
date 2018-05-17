@@ -1,2 +1,2 @@
 # PDA
-PlayerDeathAnimation
+PlayerDeathAnimation like pc for PmmP/Altay
