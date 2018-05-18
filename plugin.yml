@@ -1,5 +1,5 @@
 name: PlayerDeathAnimation
 main: PDA\PDA
-version: 1.0.0
-api: [3.0.0-ALPHA12]
+version: 1.0.1
+api: [3.0.0, 3.0.0-ALPHA12, 3.0.1]
 author: Amirgta1
