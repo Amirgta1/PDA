@@ -1,4 +1,3 @@
-<img src="/logo.png" width="400px">
 # PDA
 Select Language: [English](#eng), [Farsi](#Farsi)
 <a name="eng"></a>
