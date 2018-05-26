@@ -49,7 +49,9 @@ class PDA extends PluginBase implements Listener{
 		$npc = new PDAEntity($player->getLevel(), $nbt);
 		$npc->getDataPropertyManager()->setBlockPos(PDAEntity::DATA_PLAYER_BED_POSITION, new Vector3($player->getX(), $player->getY(), $player->getZ()));
 		$npc->setPlayerFlag(PDAEntity::DATA_PLAYER_FLAG_SLEEP, true);
-		$npc->setNameTag("[Dead]" .$player->getName(). "");
+		if ($this->getConfig()->get("shownametag") == true) {
+			$npc->setNameTag($this->getConfig()->get("nametag") . $player->getName(). "");
+		}
 		$npc->setNameTagAlwaysVisible(false);
 		$npc->spawnToAll();
 	}
