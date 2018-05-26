@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/Amirgta1/PDA/master/logo.jpg" height="285" width="500" align="left"></img>
 <br />
 Select Language: [English](#eng), [Farsi](#Farsi)
-***
+
 <a name="eng"></a>
 # English
 PlayerDeathAnimation like pc for PmmP/Altay
